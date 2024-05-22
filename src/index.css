@@ -321,8 +321,9 @@ p {
     max-width: 100%;
   }
 
-  .right {
-    margin-top: 20px;
+  .home .right {
+  position:relative;
+top:-82px;
   }
 
   .menu-toggle {
@@ -331,8 +332,9 @@ p {
 
   .menu-items {
     display: none;
-    width: auto;
-    text-align: right;
+  width:auto;
+    padding:10px;
+    text-align: center;
     background-color: #180e25;
     position: absolute;
     top: 50px; /* Adjust as needed based on your design */
@@ -354,15 +356,18 @@ p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
   }
   .ex-items {
     width: 50vw;
+    height:auto;
   }
 }
 @media screen and (max-width: 1023px) {
   .cardii {
     align-items: center;
     display: flex;
+    
     justify-content: center;
   }
 }
