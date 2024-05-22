@@ -38,7 +38,7 @@ function Home() {
         </div>
         <div className="right">
           <div className="img-mine">
-            <img src={`../src/assets/${hero.imgSrc}`} alt="Hero" />
+            <img src={`assets/${hero.imgSrc}`} alt="Hero" />
           </div>
         </div>
       </div>

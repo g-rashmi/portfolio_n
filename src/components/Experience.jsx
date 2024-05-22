@@ -15,7 +15,7 @@ function Experience() {
                 <div key={data.id} className="ex-items {data.id}">
                   {" "}
                   <div className="left">
-                    <img src={`../src/assets/${data.imageSrc}`}></img>
+                    <img src={`/assets/${data.imageSrc}`}></img>
                   </div>{" "}
                   <div className="right">
                     <h2>{data.role} </h2>{" "}
