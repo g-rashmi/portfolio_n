@@ -1,0 +1,41 @@
+[
+  {
+    "id": "one",
+    "role": "SDE INTERN",
+    "organisation": "Curious Technologies",
+    "startDate": "Oct 2022 -",
+    "endDate": "Feb 2023",
+    "location": "Remote",
+    "experiences": [
+      "• Gained hands-on experience in web development using HTML, CSS, JavaScript, and PHP",
+      "• Worked on challenging projects under the guidance of mentors"
+    ],
+    "imageSrc": "company/curious.png"
+  },
+  {
+    "id": "two",
+    "role": "Campus-Ambassador",
+    "organisation": "Geeks for Geeks",
+    "startDate": "Jul 2023 – ",
+    "endDate": "Present",
+    "location": "Remote",
+    "experiences": [
+      "• Organized events to expand GeeksforGeeks’ campus presence",
+      " •Built relationships and provided guidance to students"
+    ],
+    "imageSrc": "company/gfg.png"
+  },
+  {
+    "id": "three",
+    "role": "Event Lead (GDSC) ",
+    "organisation": "Google",
+    "startDate": "sep 2023 –",
+    "endDate": " Present",
+    "location": "Jhansi",
+    "experiences": [
+      "• Led impactful events, boosting GDSC BIET’s presence.",
+      "• Fostered a vibrant tech community."
+    ],
+    "imageSrc": "company/gdsc.png"
+  }
+]
