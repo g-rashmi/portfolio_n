@@ -318,7 +318,6 @@ p {
   .container.home {
     flex-direction: column;
     text-align: center;
-    width: auto;
   }
 
   .home-items {
@@ -373,11 +372,17 @@ p {
     justify-content: center;
   }
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) { 
+
+  #contacti {
+    margin-left:-1%;
+    margin-bottom:10%;
+  }
+
   .f {
     position: relative;
     right: 0;
-    left: 26vh;
+    left: 27%;
     width: 80%;
   }
   .whole-form {
