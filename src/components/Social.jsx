@@ -15,7 +15,7 @@ function Social() {
       </a>
       <a  href="https://x.com/grashmi78?t=snIy8O2I3FliA1xqfsQM9A&s=09" className="items"><FaXTwitter /></a>
       <a href="mailto:rashmi.gupta7018@gmail.com" className="items"><CgMail /></a>
-      <a href="https://wa.me/9555244939"  className="items"><FaWhatsapp /></a>
+     
       
       </div>
       </div>

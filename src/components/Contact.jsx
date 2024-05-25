@@ -6,7 +6,7 @@ function ContactForm() {
     return alert("message send successfully") 
   }
   return (
-    <form onSubmit={handleSubmit} className="contact-form">
+    <form onSubmit={handleSubmit} className="contact-form fo">
     <h1 id="contacti">CONTACT-US</h1>
      <div className="whole-form">  <div> 
       </div> 
