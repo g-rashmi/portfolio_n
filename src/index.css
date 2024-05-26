@@ -346,11 +346,6 @@ margin-top:8%
 
   
   
-  
-  
-
-  
-  
 }
 
 @media screen and (max-width: 1023px) {
@@ -378,22 +373,29 @@ margin-top:8%
   }
 }
 @media screen and (max-width: 1023px) {
+  .contact-form {
+    margin: 10px 5%; /* Center the form with some padding */
+  }
+
   #contacti {
-    margin-left: 0;
-    margin-bottom: 10%;
+    margin: 0 0 10%;
     font-size: 1.5rem;
+  
   }
 
   .f {
     position: relative;
-    right: 0;
-    left: 0;
-    width: 100%;
+    right: 50%;
+    left: 66%; 
+  
+    transform: translateX(-50%);
     padding: 0 10px;
+
   }
 
   .whole-form {
-    width: 100%;
+    width: 88%;
+    
   }
 
   .whole-form .form-group {
@@ -404,8 +406,6 @@ margin-top:8%
     width: 100%;
   }
 }
-
-
 .footer {
   background-color: rgb(39, 38, 61);
   color: white;
