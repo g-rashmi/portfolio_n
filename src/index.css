@@ -318,23 +318,39 @@ p {
   .container.home {
     flex-direction: column;
     text-align: center;
+    height: auto;
+    margin-top: 0;
+    padding: 0; /* Ensure no extra padding is causing spacing issues */
   }
 
   .home-items {
     max-width: 100%;
+    margin: 0 auto; /* Center the home items */
+    padding: 20px; /* Add padding for better spacing */
   }
+
+  .home .right img {
+    max-width: 90%; 
+   
+    margin: 0 auto; 
+  display:flex; 
+justify-content: center;
+align-items:center;  
+margin-top:8%
+ }
+
   .menu-toggle {
     display: block;
   }
 
   .menu-items {
     display: none;
-    width: auto;
+    width: 100%; /* Use full width for better accessibility */
     padding: 10px;
     text-align: center;
     background-color: #180e25;
     position: absolute;
-    top: 50px; /* Adjust as needed based on your design */
+    top: 50px; /* Adjust based on your design */
     right: 0;
     z-index: 1;
   }
@@ -348,6 +364,7 @@ p {
     padding: 10px 0;
   }
 }
+
 @media screen and (max-width: 1023px) {
   .ex {
     display: flex;
@@ -361,7 +378,7 @@ p {
   }
   .expe {
     flex-wrap: wrap;
-    margin-top: 20vh;
+    margin-top:5%;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -404,8 +421,10 @@ p {
   padding: 20px 0;
   text-align: center;
 }
+
 .footer .footer-social a{
   margin:10px;
+
 }
 
 .footer-container {
@@ -436,7 +455,8 @@ p {
 }
 
 .footer-contact a:hover, .footer-social a:hover {
-  color: #fff;
+  color: #fff;/* White color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .footer-copyright p {
@@ -451,5 +471,24 @@ align-items: center;
   .footer-container {
       flex-direction: column;
       text-align: center;
+  }
+}
+ 
+@media screen and (max-width: 1023px) {
+  .it {
+    gap: 6%; /* Reduce gap between icons on smaller screens */ 
+  }
+  
+  .it .items {
+    height: 60px; /* Reduce size of icons on smaller screens */
+    width: 60px;
+    font-size: 1.5rem;
+    padding:7px;
+  }
+  
+  .it a:hover {
+    font-size: 2rem; /* Adjust hover size on smaller screens */
+    height: 65px;
+    width: 66px;
   }
 }
