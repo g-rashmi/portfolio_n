@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaInstagram } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
@@ -14,7 +15,7 @@ function Social() {
       <a href="https://www.linkedin.com/in/rashmi-gupta-781021226/"  className="items"> <FaLinkedin />
       </a>
       <a  href="https://github.com/g-rashmi" className="items"><FaGithub /></a>
-      <a href="mailto:rashmi.gupta7018@gmail.com" className="items"><CgMail /></a>
+      <a href="https://youtube.com/@genie7866?si=HaZhrE-tFWHyFQWU" className="items"><FaYoutube /></a>
      
       
       </div>
