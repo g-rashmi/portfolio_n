@@ -389,30 +389,33 @@ margin-top:8%
     justify-content: center;
   }
 }
-@media screen and (max-width: 1023px) { 
-
+@media screen and (max-width: 1023px) {
   #contacti {
-    margin-left:-1%;
-    margin-bottom:10%;
+    margin-left: 0;
+    margin-bottom: 10%;
+    font-size: 1.5rem;
   }
 
   .f {
     position: relative;
     right: 0;
-    left: 27%;
-    width: 80%;
+    left: 0;
+    width: 100%;
+    padding: 0 10px;
   }
+
   .whole-form {
-    width: 70%;
+    width: 100%;
   }
+
   .whole-form .form-group {
-    width: 90%;
+    width: 100%;
   }
+
   .whole-form button {
-    width: 90%;
+    width: 100%;
   }
 }
- 
 
 
 .footer {
