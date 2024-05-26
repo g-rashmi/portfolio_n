@@ -294,7 +294,7 @@ p {
     display: none;
     width: 100%;
 
-    background-color: rgb(28, 37, 54);
+    background-color: rgb(39, 38, 61);
     position: absolute;
     padding: 33px;
     left: 70vw;
@@ -302,6 +302,11 @@ p {
     right: -0px;
     z-index: 1;
     height: 100vh;
+    
+      position: absolute;
+      
+      top: 50px;
+
   }
 
   .menu-items.open {
@@ -339,30 +344,13 @@ align-items:center;
 margin-top:8%
  }
 
-  .menu-toggle {
-    display: block;
-  }
+  
+  
+  
+  
 
-  .menu-items {
-    display: none;
-    width: 100%; /* Use full width for better accessibility */
-    padding: 10px;
-    text-align: center;
-    background-color: #180e25;
-    position: absolute;
-    top: 50px; /* Adjust based on your design */
-    right: 0;
-    z-index: 1;
-  }
-
-  .menu-items.open {
-    display: block;
-  }
-
-  .nav_items {
-    display: block;
-    padding: 10px 0;
-  }
+  
+  
 }
 
 @media screen and (max-width: 1023px) {
@@ -419,7 +407,7 @@ margin-top:8%
 
 
 .footer {
-  background-color:rgb(73, 72, 106);
+  background-color: rgb(39, 38, 61);
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -459,7 +447,7 @@ margin-top:8%
 
 .footer-contact a:hover, .footer-social a:hover {
   color: #fff;/* White color on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(240, 231, 231, 0.3);
 }
 
 .footer-copyright p {
