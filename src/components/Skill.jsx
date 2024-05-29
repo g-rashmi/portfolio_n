@@ -14,7 +14,7 @@ function Skill() {
                 {" "}
                
                   {" "}
-                  <div className="item">
+                  <div className="item si">
                     <img src={`/assets/${data.imageSrc}`}></img>
                   
                     <h3>{data.title} </h3>{" "}

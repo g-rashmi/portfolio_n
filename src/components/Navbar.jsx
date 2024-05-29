@@ -1,11 +1,10 @@
-import  { useState } from 'react';
+import  { useState,useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Import hamburger and close icons
 
 const Navbar = () => { 
-  const fun=(e)=>{ 
-    e.preventDefault() ;
-    setIsOpen(open);
-  }
+  
+  
+    
   const [isOpen, setIsOpen] = useState(false); // State to track menu visibility
 
   // Function to toggle menu visibility
@@ -15,9 +14,10 @@ const Navbar = () => {
 
   return (
     <div className="container nav_bar" id="homei">
-      <div className="left nav_items"> 
-        Portfolio 
-      </div>
+    <div className="left nav_items line-drawing-demo">
+   
+    <div>Portfolio</div>
+  </div>
       <div className="right">
         {/* Hamburger icon */}
         <div className="menu-toggle" onClick={toggleMenu}>

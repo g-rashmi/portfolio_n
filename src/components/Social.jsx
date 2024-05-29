@@ -11,11 +11,11 @@ function Social() {
     <>
       <div className=" container social"> 
       <div className="contact-icon it">
-      <a href="https://www.instagram.com/rashmie_gupta?igsh=dDgxNXphZzNrc3Y1" className="items"><FaInstagram /> </a>
-      <a href="https://www.linkedin.com/in/rashmi-gupta-781021226/"  className="items"> <FaLinkedin />
+      <a href="https://www.instagram.com/rashmie_gupta?igsh=dDgxNXphZzNrc3Y1" className="items socialll"><FaInstagram /> </a>
+      <a href="https://www.linkedin.com/in/rashmi-gupta-781021226/"  className="items socialll"> <FaLinkedin />
       </a>
-      <a  href="https://github.com/g-rashmi" className="items"><FaGithub /></a>
-      <a href="https://youtube.com/@genie7866?si=HaZhrE-tFWHyFQWU" className="items"><FaYoutube /></a>
+      <a  href="https://github.com/g-rashmi" className="items socialll"><FaGithub /></a>
+      <a href="https://youtube.com/@genie7866?si=HaZhrE-tFWHyFQWU" className="items socialll"><FaYoutube /></a>
      
       
       </div>
